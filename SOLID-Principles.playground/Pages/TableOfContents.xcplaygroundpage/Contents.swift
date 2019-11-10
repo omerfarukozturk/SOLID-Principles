@@ -8,6 +8,8 @@
  * **S** stands for [Single Responsibility Principle](SingleResponsibilityPrinciple)
  * **O** stands for [Open-Closed Principle](OpenClosedPrinciple)
  * **L** stands for [Liskov Substitution Principle](LiskovSubstitutionPrinciple)
+ * **I** stands for [Interface Segregation Principle](InterfaceSegregationPrinciple)
+ * **D** stands for [Dependency Inversion Principle](DependencyInversionPrinciple)
 
  
  ### References
