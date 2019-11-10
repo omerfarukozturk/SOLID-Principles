@@ -13,7 +13,7 @@ SOLID is one of the most popular sets of design principles in object-oriented so
 - **D**ependency Inversion
 
 
-This is a a Swift Playground project that has code snippets which show how applying SOLID principles effects code design.
+This is a Swift Playground that has code snippets which show how applying SOLID principles effects code design.
 
 For each principle, there are two files in Sources folder;
 
