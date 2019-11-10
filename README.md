@@ -1,6 +1,19 @@
 # SOLID-Principles
 
-A Swift Playground project that have code snippets which shows how applying SOLID principles effects code.
+SOLID is one of the most popular sets of design principles in object-oriented software development. It’s a mnemonic acronym for the following five design principles:
+
+- **S**ingle Responsibility Principle
+
+- **O**pen/Closed Principle
+
+- **L**iskov Substitution Principle
+
+- **I**nterface Segregation Principle
+
+- **D**ependency Inversion
+
+
+This is a a Swift Playground project that has code snippets which show how applying SOLID principles effects code design.
 
 For each principle, there are two files in Sources folder;
 
