@@ -3,5 +3,6 @@
     <pages>
         <page name='TableOfContents'/>
         <page name='SingleResponsibilityPrinciple'/>
+        <page name='OpenClosedPrinciple'/>
     </pages>
 </playground>
