@@ -10,7 +10,7 @@ SOLID is one of the most popular sets of design principles in object-oriented so
 
 - **I**nterface Segregation Principle
 
-- **D**ependency Inversion
+- **D**ependency Inversion Principle
 
 
 This is a Swift Playground that has code snippets which show how applying SOLID principles effects code design.
