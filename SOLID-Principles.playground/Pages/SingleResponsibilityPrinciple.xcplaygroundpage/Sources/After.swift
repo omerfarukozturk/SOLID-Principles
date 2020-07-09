@@ -1,6 +1,6 @@
 import Foundation
 
-class DataHandler {
+fileprivate class DataHandler {
     
     let apiHandler: APIHandler
     let parseHandler: ParseHandler
@@ -25,7 +25,7 @@ class DataHandler {
     }
 }
 
-class APIHandler {
+fileprivate class APIHandler {
     
     func loadData() -> Data {
         // get data from API
@@ -33,7 +33,7 @@ class APIHandler {
     }
 }
 
-class ParseHandler {
+fileprivate class ParseHandler {
     
     func parse(data: Data) -> Any {
         // parse given data
@@ -41,7 +41,7 @@ class ParseHandler {
     }
 }
 
-class StorageHandler {
+fileprivate class StorageHandler {
     
     func save(model: Any) {
         // save data model to local storage

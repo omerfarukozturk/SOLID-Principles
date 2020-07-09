@@ -1,6 +1,6 @@
 import Foundation
 
-private class PaymentManager {
+fileprivate class PaymentManager {
     
     func makeCashPayment(amount: Double) {
         // perform payment with cash

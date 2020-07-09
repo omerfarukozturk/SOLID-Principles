@@ -1,12 +1,12 @@
 
 import Foundation
 
-protocol Worker {
+fileprivate protocol Worker {
     func work()
     func eat()
 }
 
-private class Human: Worker {
+fileprivate class Human: Worker {
     
     func work() {
         print("Human working..")
@@ -17,7 +17,7 @@ private class Human: Worker {
     }
 }
 
-private class Robot: Worker {
+fileprivate class Robot: Worker {
     
     func work() {
         print("Robot working..")

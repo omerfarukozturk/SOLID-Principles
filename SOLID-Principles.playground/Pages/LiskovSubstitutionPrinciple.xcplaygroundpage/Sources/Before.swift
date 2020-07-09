@@ -1,5 +1,5 @@
 
-private class Rectangle {
+fileprivate class Rectangle {
     
     var width: Float = 0
     var height: Float = 0
@@ -17,7 +17,7 @@ private class Rectangle {
     }
 }
 
-private class Square: Rectangle {
+fileprivate class Square: Rectangle {
     
     override func set(width: Float) {
         self.width = width
@@ -31,7 +31,7 @@ private class Square: Rectangle {
 }
 
 // if the client has the current method, LSP is broken.
-private func setSizesAndPrintArea(of rectangle: Rectangle) {
+fileprivate func setSizesAndPrintArea(of rectangle: Rectangle) {
     rectangle.set(height: 5)
     rectangle.set(width: 4)
     print(rectangle.calculateArea())

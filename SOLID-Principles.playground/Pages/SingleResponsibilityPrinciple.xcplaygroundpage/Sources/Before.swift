@@ -1,6 +1,6 @@
 import Foundation
 
-class Handler {
+fileprivate class Handler {
     
     func handle() {
         // load data from API

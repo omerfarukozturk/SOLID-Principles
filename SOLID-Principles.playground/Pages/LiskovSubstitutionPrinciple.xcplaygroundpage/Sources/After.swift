@@ -1,10 +1,10 @@
 import Foundation
 
-protocol Polygon {
+fileprivate protocol Polygon {
     func calculateArea() -> Float
 }
 
-private class Rectangle: Polygon {
+fileprivate class Rectangle: Polygon {
     
     var width: Float = 0
     var height: Float = 0
@@ -22,7 +22,7 @@ private class Rectangle: Polygon {
     }
 }
 
-private class Square: Polygon {
+fileprivate class Square: Polygon {
     var side: Float = 0
     
     func set(side: Float) {
@@ -35,7 +35,7 @@ private class Square: Polygon {
 }
 
 // the client may have this method
-private func printArea(of polygon: Polygon) {
+fileprivate func printArea(of polygon: Polygon) {
     print(polygon.calculateArea())
 }
 
