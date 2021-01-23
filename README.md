@@ -1,4 +1,8 @@
-# SOLID-Principles
+<p align="center">
+    <img src="https://github.com/omerfarukozturk/SOLID-Principles/blob/master/solid_principles.png" width="500"/>
+</p>
+
+
 
 [SOLID](https://en.wikipedia.org/wiki/SOLID) is one of the most popular sets of design principles in object-oriented software development. It’s a mnemonic acronym for the following five design principles:
 
@@ -17,8 +21,8 @@ This is a Swift Playground that has code snippets which show how applying SOLID 
 
 For each principle, there are two files in Sources folder;
 
- - **Before.swift**: A default implementation of sample case
+ - **Before.swift** files: A default implementation of sample case
 
- - **After.swift**: Related Principle applied version of the case
+ - **After.swift** files: Related Principle applied version of the case
 
-to show the difference clearly.
+to show the difference in simple and clear way.
